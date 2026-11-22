@@ -1,0 +1,29 @@
+#VRML_SIM R2025a utf8
+WorldInfo { basicTimeStep 32 title "Teacher X | Iki kule" }
+Viewpoint { position 0 -1.85 1.02 orientation 1 0 0 1.16 fieldOfView 0.92 }
+Background { skyColor [ .11 .17 .22 ] }
+DirectionalLight { direction -.35 .55 -1 intensity 1.6 ambientIntensity .65 }
+Pose { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.34 0.21 0.12 roughness 0.8 metalness 0 } geometry Box { size 1.28 0.72 0.05 } } ] }
+Pose { translation 0 0 0.033 children [ Shape { appearance PBRAppearance { baseColor 0.22 0.43 0.18 roughness 0.8 metalness 0 } geometry Box { size 1.26 0.70 0.02 } } ] }
+Pose { translation 0 0.04 0.412 children [ Shape { appearance PBRAppearance { baseColor 0.7 0.74 0.77 roughness 0.8 metalness 0 } geometry Box { size 0.96 0.012 0.012 } } ] }
+DEF MARKER Pose { translation -0.42 0.04 0.44 children [ Shape { appearance PBRAppearance { baseColor 1 0.55 0.04 roughness 0.8 metalness 0 } geometry Box { size 0.075 0.055 0.048 } } ] }
+Pose { translation -0.33 -0.18 0.06 children [ Shape { appearance PBRAppearance { baseColor 0.08 0.29 0.57 roughness 0.8 metalness 0 } geometry Box { size 0.09 0.055 0.03 } } ] }
+Pose { translation -0.5 0.04 0.233 children [ Shape { appearance PBRAppearance { baseColor 0.44 0.27 0.16 roughness 0.8 metalness 0 } geometry Box { size 0.09 0.11 0.38 } } ] }
+Pose { translation -0.5 0.04 0.425 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.17 0.12 roughness 0.8 metalness 0 } geometry Box { size 0.12 0.13 0.025 } } ] }
+Pose { translation 0.5 0.04 0.233 children [ Shape { appearance PBRAppearance { baseColor 0.44 0.27 0.16 roughness 0.8 metalness 0 } geometry Box { size 0.09 0.11 0.38 } } ] }
+Pose { translation 0.5 0.04 0.425 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.17 0.12 roughness 0.8 metalness 0 } geometry Box { size 0.12 0.13 0.025 } } ] }
+Pose { translation -0.39 0.22 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation -0.39 0.22 0.17 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.14 } } ] }
+Pose { translation -0.19 0.24 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation -0.19 0.24 0.19 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.18 } } ] }
+Pose { translation 0.07 0.19 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation 0.07 0.19 0.16 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.12 } } ] }
+Pose { translation 0.33 0.25 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation 0.33 0.25 0.18 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.16 } } ] }
+Pose { translation 0.27 -0.16 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation 0.27 -0.16 0.175 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.15 } } ] }
+Pose { translation 0.44 -0.23 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation 0.44 -0.23 0.16 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.12 } } ] }
+Pose { translation -0.09 -0.22 .075 children [ Shape { appearance PBRAppearance { baseColor .38 .23 .12 roughness 0.8 metalness 0 } geometry Box { size .015 .015 .065 } } ] }
+Pose { translation -0.09 -0.22 0.17 children [ Shape { appearance PBRAppearance { baseColor .09 .34 .18 roughness 0.8 metalness 0 } geometry Cone { bottomRadius .046 height 0.14 } } ] }
+Robot { name "Juri paneli" supervisor TRUE controller "parkur" }
