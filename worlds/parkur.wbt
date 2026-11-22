@@ -1,5 +1,11 @@
 #VRML_SIM R2025a utf8
-WorldInfo { basicTimeStep 32 title "Teacher X | Iki kule" }
+WorldInfo {
+  info [
+    "Teacher X: interactive two-tower classroom model with a simulated gas signal."
+  ]
+  title "Teacher X - Iki Kule"
+  basicTimeStep 32
+}
 Viewpoint { position 0 -1.85 1.02 orientation 1 0 0 1.16 fieldOfView 0.92 }
 Background { skyColor [ .11 .17 .22 ] }
 DirectionalLight { direction -.35 .55 -1 intensity 1.6 ambientIntensity .65 }
